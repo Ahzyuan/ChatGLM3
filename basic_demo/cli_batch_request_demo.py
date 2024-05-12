@@ -3,7 +3,7 @@ import platform
 from typing import Optional, Union
 from transformers import AutoModel, AutoTokenizer, LogitsProcessorList
 
-MODEL_PATH = os.environ.get('MODEL_PATH', 'THUDM/chatglm3-6b')
+MODEL_PATH = os.environ.get('MODEL_PATH', '/data/hzy/ChatGLM3/models/ZhipuAI/chatglm3-6b')
 TOKENIZER_PATH = os.environ.get("TOKENIZER_PATH", MODEL_PATH)
 
 tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_PATH, trust_remote_code=True)

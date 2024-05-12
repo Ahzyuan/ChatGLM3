@@ -2,7 +2,7 @@ import os
 import platform
 from transformers import AutoTokenizer, AutoModel
 
-MODEL_PATH = os.environ.get('MODEL_PATH', 'THUDM/chatglm3-6b')
+MODEL_PATH = os.environ.get('MODEL_PATH', '/data/hzy/ChatGLM3/models/ZhipuAI/chatglm3-6b')
 TOKENIZER_PATH = os.environ.get("TOKENIZER_PATH", MODEL_PATH)
 
 tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_PATH, trust_remote_code=True)
@@ -40,8 +40,8 @@ def main():
             continue
         print("\nChatGLM：", end="")
         current_length = 0
-        for response, history, past_key_values in model.stream_chat(tokenizer, query, history=history, top_p=1,
-                                                                    temperature=0.01,
+        for response, history, past_key_values in model.stream_chat(tokenizer, query, history=history, top_p=0.7,
+                                                                    temperature=0.2,
                                                                     past_key_values=past_key_values,
                                                                     return_past_key_values=True):
             if stop_stream:
@@ -50,6 +50,7 @@ def main():
             else:
                 print(response[current_length:], end="", flush=True)
                 current_length = len(response)
+                print(history)
         print("")
 
 

@@ -1,5 +1,5 @@
 __pycache__
-
+models/
 # finetune_demo: generated & downloaded files
 finetune_demo/output
 finetune_demo/data

@@ -6,7 +6,6 @@ st.set_page_config(
     initial_sidebar_state='expanded',
 )
 
-
 import demo_chat, demo_ci, demo_tool
 from enum import Enum
 
