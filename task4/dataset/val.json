@@ -1,0 +1,1122 @@
+[
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i want to book a spot at a bar in henniker north dakota"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book rosalie stewart and evelyn at a restaurant"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add the name covenant to the playlist fusion fest"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add banking violence and the inner life today to my retro gaming playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add to ila s playlist a mi manera recopilatorio the name my heart stood still"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a table for 2 guests at a restaurant in lazy mountain ny"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i want to give the pilgrims of rayne three out of 6 stars"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add song to this is philip glass"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "out of 6 i give the following book zero"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate this series five out of 6"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "can you get me seating for 5 people 1 minute from now in tuvalu"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add sonntag to my assassin s creed"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add already over pt 2 to hip hop 2017 new school"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "will it be snowy in florewood state park"
+            },
+            {
+                "role": "assistant",
+                "content": "GetWeather"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a restaurant in fl in the city of lochearn for my step son and i"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "give 0 out of 6 stars to reality of certainty"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate the current essay 5 of 6"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add nib to fay s brooklyn beat playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find a reservation at berowra waters inn in australia in 2 years"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "will you play my nuestros 80 playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "PlayMusic"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate the current novel one out of 6"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate this textbook 2 of 6 stars"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate this book a five"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i want to see everytime we touch which is a painting"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book me a restaurant that serves hot chicken in dutch mills north dakota for 10 people for 3 am"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "will it still be warm nineteen hours from now in pa"
+            },
+            {
+                "role": "assistant",
+                "content": "GetWeather"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate my current essay zero out of 6"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a highly rated restaurant with northeastern for 10 in satanta"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "the naked and the dead was pretty good i d give it four stars"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add desert sessions to my i love my 80 s rollerdisco playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "search for the un provinciale a new york tv show"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find the deathsmiles ii soundtrack"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i need a popular moroccan cafeteria"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "is the young guard playing at the closest cinema"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find cluster computing a game"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find a photograph called between the days"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i need a reservation at the one eighty for elsa and wendy in muscle shoals"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "please book me a table for three at an american gastropub"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find a movie house with hollow reed"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "give zero out of 6 points to marxism and the oppression of women"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "what movie schedule are in the area for animated movies"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "she me the movie times"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a spot at a restaurant faraway from 138th st"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i give the previous saga 4 out of 6"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate how to eat fried worms two stars"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i need a cambodian brasserie restaurant that is top-rated"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a table for seven people at a restaurant which has internet"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "i want to add johnny burke to the country bound playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "rate the tritonian ring zero"
+            },
+            {
+                "role": "assistant",
+                "content": "RateBook"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "what is the movie schedule at loews cineplex entertainment"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find the photographic journal"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "is convoy busters playing"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "what films and movie schedule are in the area"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "can i see the tv show the closer i get"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add i hate myself and i want to die to my six string peacefulness"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find me haunted castle"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "find the nearest movie theatre with movies"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "book a restaurant for 4 of us"
+            },
+            {
+                "role": "assistant",
+                "content": "BookRestaurant"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "search for the painting smart money"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "what time will the age of success be showing"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add this track to my gold school playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "can you pull up the american music awards of 1975"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "which films are playing at malco theatres"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "can i know what animated movies are scheduled in the neighbourhood"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "where can i watch the tv show terrorists: the kids they sentenced"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "where can i find the tv show of the school teacher in the house"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchCreativeWork"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "are there any animated movies playing in the neighborhood"
+            },
+            {
+                "role": "assistant",
+                "content": "SearchScreeningEvent"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add the spirit of life to nação reggae"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add tarkan to my madrugando playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are a text intent classifier, you need to extract the intent of the input sentence and output it.\nThe input sentence is very colloquial, and its intention can only be PlayMusic or RateBook or SearchCreativeWork or AddToPlaylist or GetWeather or BookRestaurant or SearchScreeningEvent.\nFor each sentence, you need to complete the following tasks:\n\n1. Extract intent, the intent can only be: ['PlayMusic', 'RateBook', 'SearchCreativeWork', 'AddToPlaylist', 'GetWeather', 'BookRestaurant', 'SearchScreeningEvent']\n2. Output intention, be careful not to add any words or symbols in the output"
+            },
+            {
+                "role": "user",
+                "content": "add totally stress free by bobby lord to my playlist"
+            },
+            {
+                "role": "assistant",
+                "content": "AddToPlaylist"
+            }
+        ]
+    }
+]
