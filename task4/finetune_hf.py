@@ -33,6 +33,7 @@ from transformers import (
 from transformers import DataCollatorForSeq2Seq as _DataCollatorForSeq2Seq
 
 from transformers import Seq2SeqTrainer as _Seq2SeqTrainer
+from torch.utils.tensorboard import SummaryWriter
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -530,8 +531,9 @@ def main(
         compute_metrics=functools.partial(compute_metrics, tokenizer=tokenizer),
     )
 
+    #writer = SummaryWriter('Log/{}'.format(os.path.splitext(os.path.basename(config_file))[0]))
     if auto_resume_from_checkpoint.upper() == "" or auto_resume_from_checkpoint is None:
-        trainer.train()
+        trainer.train(writer=None)
     else:
         output_dir = ft_config.training_args.output_dir
         dirlist = os.listdir(output_dir)

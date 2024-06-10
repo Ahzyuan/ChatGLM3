@@ -4,6 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 from collections import Counter
 from transformers import AutoTokenizer, AutoModel
+from torch.utils.tensorboard import SummaryWriter
 
 def train_val_split(data_dir,train_rate=0.8):
     assert 0 < train_rate < 1
@@ -50,13 +51,11 @@ def init_prompt(cls_dict, pre_hist_rate, shot=5):
         sentence_num = len(sentences)
         for sentence in sentences[:int(sentence_num*pre_hist_rate)]:
             pre_history.append((sentence, _type))
-        example_pairs.extend(pre_history[-shot:])
+        if shot:
+            example_pairs.extend(pre_history[-shot:])
     
     random.shuffle(pre_history)
-    random.shuffle(example_pairs)
 
-    example_pairs = [f'Input: {x} Output: {y}' for x,y in example_pairs]
-    example_text = '\n'.join(example_pairs)
     prologue ='''You are a text intent classifier, you need to extract the intent of the input sentence and output it.
 The input sentence is very colloquial, and its intention can only be {}.
 For each sentence, you need to complete the following tasks:
@@ -66,6 +65,9 @@ For each sentence, you need to complete the following tasks:
 #    prologue = f'You are a text classifier, you need to classify the sentences I gave you to one class in: {cls_list}.\
 #Note that you should only return what you pick in the list, and don\'t add other words to the output!'
     if shot:
+        random.shuffle(example_pairs)
+        example_pairs = [f'Input: {x} Output: {y}' for x,y in example_pairs]
+        example_text = '\n'.join(example_pairs)
         prologue += f'\n\nFor example:\n{example_text}'
 
     return [{'role':'system','content':prologue}]+build_QA(pre_history)
@@ -87,17 +89,19 @@ def inference(sentences_ls, model, tokenizer, history, cls_list, assure_time=1):
                                            do_sample=True,
                                            max_length = 81920, num_beams=1, top_p=0.8, temperature=0.2)
 
-            while response not in cls_list:
-                sentence_with_prompt = f'Please classify \'{sentence}\' in {cls_list}, pick one in the list as your answer and output it.Note that you should only return what you pick in the list, and don\'t add other words to the output!'
-                response, history = model.chat(tokenizer, 
-                                              sentence_with_prompt, 
-                                              history=history, 
-                                              do_sample=True, # True 则根据概率
-                                              max_length = 81920, num_beams=1, top_p=0.8, temperature=0.2)
-                if len(history)>70:
-                    history=history[:51]
-                    response = random.choice(cls_list)
-                    break        
+            if response not in cls_list:
+                response = random.choice(cls_list)
+            #while response not in cls_list:
+            #    sentence_with_prompt = f'Please classify \'{sentence}\' in {cls_list}, pick one in the list as your answer and output it.Note that you should only return what you pick in the list, and don\'t add other words to the output!'
+            #    response, history = model.chat(tokenizer, 
+            #                                  sentence_with_prompt, 
+            #                                  history=history, 
+            #                                  do_sample=True, # True 则根据概率
+            #                                  max_length = 81920, num_beams=1, top_p=0.8, temperature=0.2)
+            #    if len(history)>70:
+            #        history=history[:51]
+            #        response = random.choice(cls_list)
+            #        break        
         
             res.append(response)
 
@@ -137,9 +141,7 @@ if __name__=='__main__':
     tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_PATH, trust_remote_code=True)
     model = AutoModel.from_pretrained(MODEL_PATH, trust_remote_code=True, device_map="auto").eval()
 
-    pre_hist_rate = 0.2
-
-    sys_prompt = init_prompt(example, pre_hist_rate, shot=5)
+    sys_prompt = init_prompt(example, pre_hist_rate=0.5, shot=9)
 
     print('\n'+'='*40+' Val '+'='*40)
     val_acc = 0

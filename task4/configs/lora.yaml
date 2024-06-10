@@ -9,7 +9,7 @@ max_output_length: 256
 
 training_args:
   # see `transformers.Seq2SeqTrainingArguments`
-  output_dir: /data/hzy/ChatGLM3/models/lora_model
+  output_dir: /data/hzy/ChatGLM3/models/lora_model2
   max_steps: 200
   # needed to be fit for the dataset
   learning_rate: 5e-4
@@ -27,7 +27,7 @@ training_args:
   # settings for evaluation
   per_device_eval_batch_size: 16
   evaluation_strategy: steps
-  eval_steps: 50
+  eval_steps: 1
   # settings for optimizer
   # adam_epsilon: 1e-6
   # uncomment the following line to detect nan or inf values
