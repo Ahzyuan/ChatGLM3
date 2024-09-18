@@ -1,5 +1,7 @@
 __pycache__
-
+models/
+jobbing_skills/dataset
+jobbing_skills/Result
 # finetune_demo: generated & downloaded files
 finetune_demo/output
 finetune_demo/data
